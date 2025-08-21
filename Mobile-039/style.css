@@ -81,6 +81,18 @@ input::placeholder {
 #tipo {
   height: 100px;
 }
+
+.card {
+  background-color: brown;
+  padding-bottom: 50px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
 .center {
   display: flex;
   justify-content: center;
