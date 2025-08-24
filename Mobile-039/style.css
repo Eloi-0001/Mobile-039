@@ -25,13 +25,13 @@ main {
   border-radius: 20px;
   background-color: firebrick;
   justify-content: center;
+  position: relative;
 }
 
 #barra {
-  width: 91%;
-  position: absolute;
+  width: 100%;
   bottom: 77%;
-  transform: translate(4%, 0);
+  transform: translate(8.5%, 55%);
 }
 
 #form {
@@ -63,19 +63,16 @@ input::placeholder {
   background-color: white;
   border-radius: 15px;
   object-fit: cover;
-  position: absolute;
-  left: 30.5%;
+  transform: translate(-80%, -50%);
 }
 
 .botao {
   background-color: none;
   border: none;
   border-radius: 15px;
-  position: absolute;
-  bottom: 77.2%;
-  left: 67%;
-  transform: translate(0%, 10%);
-  height: 27px;
+  transform: translate(458px, -87%);
+  height: 30px;
+  width: 30px;
 }
 
 .poke_info {
