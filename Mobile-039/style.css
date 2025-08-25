@@ -92,7 +92,7 @@ input::placeholder {
 .card {
   background-color: brown;
   padding-bottom: 50px;
-  width: 200px;
+  width: 185px;
   height: 200px;
   display: flex;
   justify-content: center;
@@ -117,4 +117,14 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+#tipo_elemento {
+  background-color: darkseagreen;
+  border-radius: 5px;
+}
+
+#tipo_elemento2 {
+  background-color: darkseagreen;
+  border-radius: 5px;
 }
